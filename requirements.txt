@@ -1,0 +1,3 @@
+# SextantArc runs on the Python standard library alone.
+# pytest is here only so the shipped test suite can be run after a clone.
+pytest==9.1.1

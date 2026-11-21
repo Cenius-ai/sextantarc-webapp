@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sextantarc"
+version = "0.1.0"
+description = "Offline celestial navigation worksheets: sight reduction, meridian altitude correction, chronometer drift log"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+dependencies = []
+keywords = ["celestial navigation", "sight reduction", "sextant", "chronometer"]
+classifiers = [
+    "Environment :: Console",
+    "Intended Audience :: End Users/Desktop",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Astronomy",
+]
+
+[project.scripts]
+sextantarc = "sextantarc:main"
+
+[tool.setuptools]
+py-modules = ["sextantarc"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
