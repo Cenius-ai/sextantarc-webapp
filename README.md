@@ -90,7 +90,7 @@ _Full guide: [`USAGE.md`](USAGE.md)_
 
 ## Architecture
 
-Full-stack app project, delivered as a complete runnable codebase (22 files). Top-level layout: `tests/`. Dependency management and data seeding are both handled by `./install.sh` — run it once, then start the server. For environment-specific setup, see [`INSTALL.md`](INSTALL.md).
+Full-stack app project, delivered as a complete runnable codebase (12 files). Top-level layout: `tests/`. Dependency management and data seeding are both handled by `./install.sh` — run it once, then start the server. For environment-specific setup, see [`INSTALL.md`](INSTALL.md).
 
 ## FAQ
 
